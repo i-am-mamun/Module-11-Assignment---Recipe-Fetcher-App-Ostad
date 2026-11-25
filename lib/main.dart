@@ -18,6 +18,7 @@ class RecipeFetcherApp extends StatelessWidget {
 
     return MaterialApp(
       title: 'Recipe Book',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: seedColor,
